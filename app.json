@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Teste",
+    "slug": "teste",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ssds24org.teste"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ssds24org.teste"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9b83dde0-f14a-4a81-8354-baf2a798b50a"
+      }
+    },
+    "owner": "ssds24-org",
+    "updates": {
+      "url": "https://u.expo.dev/9b83dde0-f14a-4a81-8354-baf2a798b50a"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
